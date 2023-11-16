@@ -1,4 +1,4 @@
-background: url(owl.video.play.png) no-repeat; 176
+background: url(owl.video.play.png) 
 //Iniciamos WOW
 new WOW().init();
 

@@ -11,6 +11,7 @@ html{
 body{
     font-family: 'Open Sans', sans-serif;
     color: $texto;
+    
 }
 .bienvenidos{
     background: url("../images/fondo-encabezado.jpg") no-repeat center top;
@@ -21,11 +22,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .encabezado{
     background: $texto;
     color: #fff;
     padding: .5rem 0;
     transition: all .5s ease;
+    
 }
 .encabezado.fondo-menu{
     background: #064e4e;

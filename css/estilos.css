@@ -3,11 +3,12 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  
   color: black; }
 
 .bienvenidos {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
-  color: #fff;
+  color: #bceb708f;
   background-size: cover;
   background-attachment: fixed !important;
   height: 100vh;
@@ -17,11 +18,14 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column; 
+        }
+        
+
 
 .encabezado {
   background: #111111;
-  color: #fff;
+  color: #bceb708f;
   padding: .5rem 0;
   -webkit-transition: all .5s ease;
   transition: all .5s ease; }
@@ -213,6 +217,7 @@ body {
   background-size: cover;
   background-attachment: fixed !important;
   color: #fff; }
+
 
 .servicios article {
   display: -webkit-box;
