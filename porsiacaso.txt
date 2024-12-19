@@ -1,0 +1,22 @@
+.bienvenidos {
+		background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
+		color: #ffffff9c;
+		background-size: cover;
+		background-attachment: fixed !important;
+		height: 100vh;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column; 
+	  
+	  
+	  }
+
+
+#00008B
+
+<a href="https://www.twitch.tv/teby_silver8">Suscribirse a twitch</a>
+			<a href="https://www.youtube.com/theesteban300">Youtube</a>
