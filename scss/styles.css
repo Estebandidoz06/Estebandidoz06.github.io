@@ -52,3 +52,58 @@
     font-size: 18px;
 }
 /*Fin de Menù lateral*/
+
+.bienvenidos {
+    background: url("../images/Principal.jpg") no-repeat center top;
+    color: black;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 	  
+  }
+
+  .productos .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    background: white;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: #5a4848;
+  }
+  
+  .hero img {
+    width: 50%;
+  }
+  
+  .hero .btn {
+    background: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .hero .btn-secundario {
+    background: #6c757d;
+  }
