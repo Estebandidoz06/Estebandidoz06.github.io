@@ -1,77 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Esteban Cumplido</title>
-  <link rel="shortcut icon" href="imagenes/playstation.png">
-  <!-- Bootstrap -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="scss/styles.css" rel="stylesheet">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componetes TebySilverQueen</title>
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
-<body class="bienvenidos">
-  <header class="header">
-		<div class="container">
-		<div class="btn-menu">
-			<label for="btn-menu">☰</label>
-		</div>
-			<div class="logo">
-				<h1>Armado de computadores</h1>
-			</div>
-
-      <section id="productos" class="productos">
-        <h2>Nuestros Productos</h2>
-        <div class="grid">
-          <div class="card">
-            <img src="imagenes/limpieza basica.jfif">
-            <h3>Limpieza básica.</h3>
-            <p>La limpieza básica de una computadora que 
-              ofrecemos es mantenimiento en el sistema.</p>
-            <p>Precio: $10,000</p>
-            <button class="btn">Comprar</button>
-          </div>
-          <br>
-          <div class="card">
-            <img src="imagenes/limpieza completa.jfif" >
-            <h3>Limpieza completa.</h3>
-            <p>La limpieza completa de una computadora que 
-              ofrecemos es mantenimiento en el sistema, perifericos computacional, hadware y formateo.</p>
-            <p>Precio: $55,000</p>
-            <button class="btn">Comprar</button>
-          </div>
+<body>
+    <header id="encabezado">
+        <div class="logo">
+            <h1>Componetes TebySilver</h1>
         </div>
-      </section>
-  </div>   
-  </header>
-	<!----------------->
-  <input type="checkbox" id="btn-menu">
-  <div class="container-menu">
-    <div class="cont-menu">
-      <nav>			
-        <a href="index.html">Inicio</a>
-        <a href="Sobremi.html">Sobre mi</a>
-        <a href="Contactar.html">Contacto</a>
-        <a href="https://www.instagram.com/teby_silver/">Instagram</a>
-      </nav>
-      <label for="btn-menu">✖️</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="Sobremi.html">Acerca de mi</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Bienvenido a Componetes TebySilver</h2>
+        <p>Encuentra lo mejor en Componentes de tecnología.</p>
+        
+    </section>
+
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Ofrecemos productos de alta calidad a precios competitivos.</p>
+    </section>
+
+    <section class="product-grid" id="products">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="product2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto.</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Agregar más productos según sea necesario -->
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer class="piedepagina" role="contentinfo">
+  <div class="container">
+      <p>2024 © Todos los derechos reservados Esteban Cumplido</p>
+      <ul class="redes-sociales">
+          
+          <li><a href="https://www.instagram.com/teby_silver/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+        
+      </ul>
   </div>
-<script src="js/jquery-3.2.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-   
+</footer>
+<a class="ir-arriba" data-scroll href="#encabezado"><i class="fas fa-arrow-circle-up" aria-hidden="true"></i></a>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/sitio.js"></script>
-    <!-- Bootstrap Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
