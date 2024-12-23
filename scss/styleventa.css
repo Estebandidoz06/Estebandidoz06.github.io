@@ -1,0 +1,105 @@
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Puedes cambiar la fuente por la que te guste */
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Un fondo suave */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Un color oscuro para el encabezado */
+    color: #fff; /* Texto blanco para contraste */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen del encabezado */
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos del menú en una fila */
+    justify-content: center; /* Centra el menú */
+}
+
+nav li {
+    margin: 0 10px; /* Agrega espacio entre los elementos del menú */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco para contraste */
+    font-weight: bold; /* Fuente en negrita */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos para botones */
+button {
+    background-color: #4CAF50; /* Un color verde para el botón */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a un puntero al pasar el ratón */
+}
+
+/* Estilos para formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos del formulario en una columna */
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el carrusel (puedes personalizarlo según tus necesidades) */
+#carrusel {
+    width: 500px;
+    margin: 0 auto; /* Centra el carrusel */
+    overflow: hidden; /* Oculta el contenido que se salga del contenedor */
+}
+
+#carrusel img {
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
