@@ -1,8 +1,3 @@
-// Ejemplo de cómo mostrar un mensaje de bienvenida
-window.onload = function() {
-    alert("¡Bienvenido a tu página web!");
-};
-
 // Ejemplo de cómo cambiar el contenido de un elemento
 const mensaje = document.getElementById("mensaje"); // Suponiendo que tienes un elemento con id="mensaje"
 mensaje.innerHTML = "Este es un mensaje dinámico.";
