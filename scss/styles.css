@@ -55,7 +55,7 @@ search-bar input {
 .search-bar button {
   padding: 5px 10px;
   border: none;
-  background-color: #ff9900;
+  background-color: blue;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
