@@ -329,4 +329,17 @@ search-bar input {
   font-size: 18px;
 }
 /*Fin de Menù lateral*/
+
+.hero .btn {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.hero .btn-secundario {
+  background: #6c757d;
+}
     
